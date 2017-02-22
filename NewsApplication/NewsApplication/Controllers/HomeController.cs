@@ -13,22 +13,28 @@ namespace NewsApplication.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Local()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Local";
+            return View();
+        }
+
+        public ActionResult Weather()
+        {
+            ViewBag.Message = "Weather";
+
+            return View();
+        }
+        public ActionResult Entertainment()
+        {
+            ViewBag.Message = "Entertainment";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Politics()
         {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-        public ActionResult Home()
-        {
-            ViewBag.Message = "Home News";
+            ViewBag.Message = "Political";
 
             return View();
         }
