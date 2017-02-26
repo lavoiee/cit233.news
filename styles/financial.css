@@ -1,10 +1,26 @@
-.flex-container {
+.flex-article {
+    flex: 1;
+    
+    margin: 1%;
+    background-color: cornflowerblue;
+}
+
+.flex-container-main {
     display: -webkit-flex;
     display: flex;
     width: 100vw;
     height: 80vh;
     margin-top: 20vh;
     background-color: lightgrey;
+}
+
+.flex-article-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: lightgrey;
+    margin: 1%;
 }
 
 .flex-carousel {
@@ -18,4 +34,5 @@
     background-color: cornflowerblue;
     flex: 1;
     margin: 1%;
+    height: 40vh;
 }
