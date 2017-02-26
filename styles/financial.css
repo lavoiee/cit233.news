@@ -29,7 +29,7 @@
     width: 100vw;
     height: 1024vh;
     margin-top: 25vh;
-    background-color: #2C303C;
+    background-color: white;
 }
 
 .flex-article-main-container {
@@ -51,4 +51,12 @@
     margin: 1%;
     height: 1020vh;
     background-color: cornflowerblue;
+}
+
+.sidebar-item {
+    flex: 1;
+    height: 40vh;
+    background-color: white;
+    color: black;
+    
 }
