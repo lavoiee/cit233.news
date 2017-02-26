@@ -12,9 +12,8 @@
 
 .carousel {
     height: 60vh;
-    margin: 1%;
+    margin: 0 1% 1% 1%;
     background-color: cornflowerblue;
-    margin: 1%;
 }
 
 .flex-article-container {
@@ -35,14 +34,12 @@
 
 .flex-article-main-container {
     display: -webkit-flex;
-    display: flex;
+    display: flex;   
     height: 957.3vh;
-    margin: 1%;
-    background-color: white;
 }
 
 .flex-main-container {
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     width: 60vw;
     flex: 2;
     margin: 1%;
