@@ -1,4 +1,4 @@
-.flex-container{
+.flex-container {
     display: -webkit-flex;
     display: flex;
     width: 100vw;
@@ -7,9 +7,15 @@
     background-color: lightgrey;
 }
 
-.flex-item{
+.flex-carousel {
     background-color: cornflowerblue;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
+    flex: 2;
+    margin: 1%;
+    height: 60vh;
+}
+
+.flex-sidebar {
+    background-color: cornflowerblue;
+    flex: 1;
+    margin: 1%;
 }
