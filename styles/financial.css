@@ -2,7 +2,8 @@
     display: -webkit-flex;
     display: flex;
     width: 100vw;
-    height: 250px;
+    height: 80vh;
+    margin-top: 20vh;
     background-color: lightgrey;
 }
 
