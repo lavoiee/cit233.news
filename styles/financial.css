@@ -1,6 +1,11 @@
+.carousel {
+    height: 60vh;
+    margin: 1%;
+    background-color: cornflowerblue;
+}
+
 .flex-article {
-    flex: 1;
-    
+    flex: 1;   
     margin: 1%;
     background-color: cornflowerblue;
 }
@@ -9,30 +14,26 @@
     display: -webkit-flex;
     display: flex;
     width: 100vw;
-    height: 80vh;
-    margin-top: 20vh;
+    height: 1024vh;
+    margin-top: 25vh;
     background-color: lightgrey;
 }
 
 .flex-article-container {
-    display: -webkit-flex;
-    display: flex;
-    width: 100vw;
-    height: 80vh;
-    background-color: lightgrey;
-    margin: 1%;
+    
 }
 
-.flex-carousel {
+.flex-main-container {
     background-color: cornflowerblue;
+    width: 60vw;
     flex: 2;
     margin: 1%;
-    height: 60vh;
+    height: 1020vh;
 }
 
-.flex-sidebar {
-    background-color: cornflowerblue;
+.flex-sidebar-container {
     flex: 1;
     margin: 1%;
-    height: 40vh;
+    height: 1020vh;
+    background-color: cornflowerblue;
 }
