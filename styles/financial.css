@@ -16,7 +16,7 @@
     width: 100vw;
     height: 1024vh;
     margin-top: 25vh;
-    background-color: lightgrey;
+    background-color: #2C303C;
 }
 
 .flex-article-container {
@@ -24,7 +24,7 @@
 }
 
 .flex-main-container {
-    background-color: cornflowerblue;
+    background-color: lightgrey;
     width: 60vw;
     flex: 2;
     margin: 1%;
