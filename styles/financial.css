@@ -102,6 +102,10 @@ ul {
   /*background-color: white;*/
 }
 
+#wrapper {
+  margin: 1%;
+}
+
 .main {
   /*------- Flexbox Support -------*/
   display: flex;
