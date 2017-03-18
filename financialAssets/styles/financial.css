@@ -63,26 +63,6 @@
 
 }
 
-#slideshowWrapper li {
-  width: 100%;
-  /*background-color: lightgreen;*/
-  z-index: -1;
-  margin: 0%;
-}
-
-#slideshow {
-  margin: 0%;
-}
-
-.slide-img {
-  width: 100%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0%;
-}
-
 .carousel {
   margin: 0% 1% 1% 1%;
 }
@@ -102,10 +82,6 @@ ul {
   /*background-color: white;*/
 }
 
-#wrapper {
-  margin: 1%;
-}
-
 .main {
   /*------- Flexbox Support -------*/
   display: flex;
@@ -120,10 +96,34 @@ ul {
   /*margin: 3%;*/
 }
 
+#slideshowWrapper li {
+  width: 100%;
+  /*background-color: lightgreen;*/
+  z-index: -1;
+  margin: 0%;
+}
+
+#slideshow {
+  margin: 0%;
+}
+
+.slide-img {
+  width: 100%;
+}
+
 .sidebar {
   flex: 1;
   background-color: white;
   margin: 3.8% 1% 0% 0%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+}
+
+#wrapper {
+  margin: 1%;
 }
 
 /* Large screens ----------- */
