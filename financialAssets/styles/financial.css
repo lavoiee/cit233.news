@@ -45,6 +45,7 @@
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1224px) {
 
+
 .article {
   /*------- Flexbox Support -------*/
   display: flex;
@@ -108,7 +109,8 @@
 
   width: 100%;
 
-  margin-top: 10vh;
+
+  margin-top: 12vh;
   /*background-color: white;*/
 }
 
