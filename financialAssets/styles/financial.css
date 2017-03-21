@@ -70,7 +70,9 @@
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
+  width: 100%;
   color: black;
+  background-color: rgba(255, 255, 255, 0.5);
   font-family: 'Lora', serif;
   font-size: 2rem;
   z-index: 1;
