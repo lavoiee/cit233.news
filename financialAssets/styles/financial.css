@@ -68,6 +68,7 @@
   display: -webkit-flex;
   color: black;
   font-family: 'Lora', serif;
+  font-size: 2rem;
   z-index: 1;
   position: absolute;
 }
@@ -173,6 +174,20 @@ ul {
 
   height: 30vh;
   flex: 1;
+}
+
+.content-course {
+  /*------- Flexbox Support -------*/
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+
+  height: 100vh;
+  margin: 1%;
+  background-color: white;
 }
 
 .course {
