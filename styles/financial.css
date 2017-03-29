@@ -60,7 +60,6 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   flex-direction: row;
-
 }
 
 #slideshowWrapper li {

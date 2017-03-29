@@ -20,6 +20,9 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
+jQuery(document).ready(function(){
+ 	jQuery('#slideshow').fadeSlideShow();
+});
 
 jQuery.fn.fadeSlideShow = function(options) {
 	return this.each(function(){
@@ -151,32 +154,7 @@ jQuery.fn.fadeSlideShow = function(options) {
 			});
 		}
 
-		// if(settings.PlayPauseElement){
-		// 	if(!jQuery('#'+settings.PlayPauseElement).css('display')){
-		// 		jQuery(this).after('<a href="#" id="'+settings.PlayPauseElement+'"><\/a>');
-		// 	}
-		//
-		// 	if(settings.autoplay){
-		// 		jQuery('#'+settings.PlayPauseElement).html(settings.PauseText);
-		// 	}else{
-		// 		jQuery('#'+settings.PlayPauseElement).html(settings.PlayText);
-		// 	}
-		//
-		// 	jQuery('#'+settings.PlayPauseElement).bind('click', function(){
-		// 		if(intval){
-		// 			stopAutoplay();
-		// 		}else{
-		// 			autoplay();
-		// 		}
-		// 		return false;
-		// 	});
-		// }
-
 		if(settings.NextElement){
-			// if(!jQuery('#'+settings.NextElement).css('display')){
-			// 	jQuery(this).after('<a href="#" id="'+settings.NextElement+'">'+settings.NextElementText+'<\/a>');
-			// }
-
 			jQuery('#'+settings.NextElement).bind('click', function(){
 				nextSlide = ActSlide-1;
 				stopAutoplay();
@@ -186,10 +164,6 @@ jQuery.fn.fadeSlideShow = function(options) {
 		}
 
 		if(settings.PrevElement){
-			// if(!jQuery('#'+settings.PrevElement).css('display')){
-			// 	jQuery(this).after('<a href="#" id="'+settings.PrevElement+'">'+settings.PrevElementText+'<\/a>');
-			// }
-
 			jQuery('#'+settings.PrevElement).bind('click', function(){
 				prevSlide = ActSlide+1;
 				stopAutoplay();
