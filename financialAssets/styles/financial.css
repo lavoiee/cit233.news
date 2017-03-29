@@ -157,7 +157,7 @@ a {
   display: -webkit-flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 12vh;
+  margin-top: 15vh;
   /*background-color: white;*/
 }
 
@@ -257,8 +257,8 @@ ul {
   display: -webkit-flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 48vw;
-  height: 60vh;
+  max-width: 48vw;
+  max-height: 60vh;
   margin: 3.5% 1% 1% 1%;
   background-color: white;
 }
